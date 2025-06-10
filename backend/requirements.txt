@@ -1,0 +1,18 @@
+# --- JobFlow core ----------------------------------------------------
+beautifulsoup4>=4.12
+requests>=2.32
+pdfminer.six>=20221105
+python-docx>=1.1
+spacy>=3.7
+keyword-spacy>=0.0.3
+pandas>=2.2
+sqlalchemy>=2.0
+openai>=1.28
+python-dotenv>=1.0
+tqdm>=4.66
+
+# --- FastAPI stack ---------------------------------------------------
+fastapi>=0.111
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+aiofiles>=23.2
